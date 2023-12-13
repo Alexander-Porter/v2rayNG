@@ -1,4 +1,4 @@
-package com.v2ray.ang.ui
+package com.voxon.sim.ui
 
 import android.content.Intent
 import android.graphics.Color
@@ -10,15 +10,15 @@ import android.view.ViewGroup
 import androidx.appcompat.app.AlertDialog
 import com.google.gson.Gson
 import com.tencent.mmkv.MMKV
-import com.v2ray.ang.R
-import com.v2ray.ang.databinding.ItemQrcodeBinding
-import com.v2ray.ang.databinding.ItemRecyclerSubSettingBinding
-import com.v2ray.ang.dto.EConfigType
-import com.v2ray.ang.extension.toast
-import com.v2ray.ang.util.AngConfigManager
-import com.v2ray.ang.util.MmkvManager
-import com.v2ray.ang.util.QRCodeDecoder
-import com.v2ray.ang.util.Utils
+import com.voxon.sim.R
+import com.voxon.sim.databinding.ItemQrcodeBinding
+import com.voxon.sim.databinding.ItemRecyclerSubSettingBinding
+import com.voxon.sim.dto.EConfigType
+import com.voxon.sim.extension.toast
+import com.voxon.sim.util.AngConfigManager
+import com.voxon.sim.util.MmkvManager
+import com.voxon.sim.util.QRCodeDecoder
+import com.voxon.sim.util.Utils
 
 class SubSettingRecyclerAdapter(val activity: SubSettingActivity) :
     RecyclerView.Adapter<SubSettingRecyclerAdapter.MainViewHolder>() {

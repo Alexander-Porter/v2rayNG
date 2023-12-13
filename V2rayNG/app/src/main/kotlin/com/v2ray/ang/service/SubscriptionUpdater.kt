@@ -1,4 +1,4 @@
-package com.v2ray.ang.service
+package com.voxon.sim.service
 
 import android.annotation.SuppressLint
 import android.app.NotificationChannel
@@ -10,11 +10,11 @@ import androidx.core.app.NotificationCompat
 import androidx.core.app.NotificationManagerCompat
 import androidx.work.CoroutineWorker
 import androidx.work.WorkerParameters
-import com.v2ray.ang.AppConfig
-import com.v2ray.ang.R
-import com.v2ray.ang.util.AngConfigManager
-import com.v2ray.ang.util.MmkvManager
-import com.v2ray.ang.util.Utils
+import com.voxon.sim.AppConfig
+import com.voxon.sim.R
+import com.voxon.sim.util.AngConfigManager
+import com.voxon.sim.util.MmkvManager
+import com.voxon.sim.util.Utils
 
 object SubscriptionUpdater {
 

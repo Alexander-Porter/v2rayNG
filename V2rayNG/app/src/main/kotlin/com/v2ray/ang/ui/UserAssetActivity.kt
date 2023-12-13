@@ -1,4 +1,4 @@
-package com.v2ray.ang.ui
+package com.voxon.sim.ui
 
 import android.Manifest
 import android.annotation.SuppressLint
@@ -17,14 +17,14 @@ import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.tbruyelle.rxpermissions.RxPermissions
 import com.tencent.mmkv.MMKV
-import com.v2ray.ang.AppConfig
-import com.v2ray.ang.R
-import com.v2ray.ang.databinding.ActivitySubSettingBinding
-import com.v2ray.ang.databinding.ItemRecyclerUserAssetBinding
-import com.v2ray.ang.extension.toTrafficString
-import com.v2ray.ang.extension.toast
-import com.v2ray.ang.util.MmkvManager
-import com.v2ray.ang.util.Utils
+import com.voxon.sim.AppConfig
+import com.voxon.sim.R
+import com.voxon.sim.databinding.ActivitySubSettingBinding
+import com.voxon.sim.databinding.ItemRecyclerUserAssetBinding
+import com.voxon.sim.extension.toTrafficString
+import com.voxon.sim.extension.toast
+import com.voxon.sim.util.MmkvManager
+import com.voxon.sim.util.Utils
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 import java.io.File

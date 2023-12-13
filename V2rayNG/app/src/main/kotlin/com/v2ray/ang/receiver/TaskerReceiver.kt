@@ -1,15 +1,15 @@
-package com.v2ray.ang.receiver
+package com.voxon.sim.receiver
 
 import android.content.BroadcastReceiver
 import android.content.Context
 import android.content.Intent
 import android.text.TextUtils
 import com.tencent.mmkv.MMKV
-import com.v2ray.ang.AppConfig
-import com.v2ray.ang.service.V2RayServiceManager
-import com.v2ray.ang.util.MmkvManager
+import com.voxon.sim.AppConfig
+import com.voxon.sim.service.V2RayServiceManager
+import com.voxon.sim.util.MmkvManager
 
-import com.v2ray.ang.util.Utils
+import com.voxon.sim.util.Utils
 
 class TaskerReceiver : BroadcastReceiver() {
     private val mainStorage by lazy { MMKV.mmkvWithID(MmkvManager.ID_MAIN, MMKV.MULTI_PROCESS_MODE) }

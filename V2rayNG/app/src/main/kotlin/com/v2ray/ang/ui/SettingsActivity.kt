@@ -1,4 +1,4 @@
-package com.v2ray.ang.ui
+package com.voxon.sim.ui
 
 import android.content.Intent
 import android.os.Bundle
@@ -9,12 +9,12 @@ import androidx.preference.*
 import androidx.work.ExistingPeriodicWorkPolicy
 import androidx.work.PeriodicWorkRequest
 import androidx.work.multiprocess.RemoteWorkManager
-import com.v2ray.ang.AngApplication
-import com.v2ray.ang.AppConfig
-import com.v2ray.ang.R
-import com.v2ray.ang.service.SubscriptionUpdater
-import com.v2ray.ang.util.Utils
-import com.v2ray.ang.viewmodel.SettingsViewModel
+import com.voxon.sim.AngApplication
+import com.voxon.sim.AppConfig
+import com.voxon.sim.R
+import com.voxon.sim.service.SubscriptionUpdater
+import com.voxon.sim.util.Utils
+import com.voxon.sim.viewmodel.SettingsViewModel
 import java.util.concurrent.TimeUnit
 
 class SettingsActivity : BaseActivity() {

@@ -1,4 +1,4 @@
-package com.v2ray.ang.ui
+package com.voxon.sim.ui
 
 import android.os.Bundle
 import android.text.TextUtils
@@ -12,14 +12,14 @@ import androidx.work.PeriodicWorkRequest
 import androidx.work.multiprocess.RemoteWorkManager
 import com.google.gson.Gson
 import com.tencent.mmkv.MMKV
-import com.v2ray.ang.AngApplication
-import com.v2ray.ang.R
-import com.v2ray.ang.databinding.ActivitySubEditBinding
-import com.v2ray.ang.dto.SubscriptionItem
-import com.v2ray.ang.extension.toast
-import com.v2ray.ang.service.SubscriptionUpdater
-import com.v2ray.ang.util.MmkvManager
-import com.v2ray.ang.util.Utils
+import com.voxon.sim.AngApplication
+import com.voxon.sim.R
+import com.voxon.sim.databinding.ActivitySubEditBinding
+import com.voxon.sim.dto.SubscriptionItem
+import com.voxon.sim.extension.toast
+import com.voxon.sim.service.SubscriptionUpdater
+import com.voxon.sim.util.MmkvManager
+import com.voxon.sim.util.Utils
 import java.util.concurrent.TimeUnit
 
 class SubEditActivity : BaseActivity() {

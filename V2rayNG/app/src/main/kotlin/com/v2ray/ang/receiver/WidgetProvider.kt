@@ -1,4 +1,4 @@
-package com.v2ray.ang.receiver
+package com.voxon.sim.receiver
 
 import android.app.PendingIntent
 import android.appwidget.AppWidgetManager
@@ -8,10 +8,10 @@ import android.content.Context
 import android.content.Intent
 import android.os.Build
 import android.widget.RemoteViews
-import com.v2ray.ang.R
-import com.v2ray.ang.AppConfig
-import com.v2ray.ang.service.V2RayServiceManager
-import com.v2ray.ang.util.Utils
+import com.voxon.sim.R
+import com.voxon.sim.AppConfig
+import com.voxon.sim.service.V2RayServiceManager
+import com.voxon.sim.util.Utils
 
 class WidgetProvider : AppWidgetProvider() {
     /**

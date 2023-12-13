@@ -1,4 +1,4 @@
-package com.v2ray.ang.ui
+package com.voxon.sim.ui
 
 import android.os.Bundle
 import android.text.TextUtils
@@ -8,19 +8,19 @@ import android.view.View
 import android.widget.*
 import androidx.appcompat.app.AlertDialog
 import com.tencent.mmkv.MMKV
-import com.v2ray.ang.AppConfig
-import com.v2ray.ang.AppConfig.PREF_ALLOW_INSECURE
-import com.v2ray.ang.R
-import com.v2ray.ang.dto.EConfigType
-import com.v2ray.ang.dto.ServerConfig
-import com.v2ray.ang.dto.V2rayConfig
-import com.v2ray.ang.dto.V2rayConfig.Companion.DEFAULT_PORT
-import com.v2ray.ang.dto.V2rayConfig.Companion.TLS
-import com.v2ray.ang.extension.toast
-import com.v2ray.ang.util.MmkvManager
-import com.v2ray.ang.util.MmkvManager.ID_MAIN
-import com.v2ray.ang.util.MmkvManager.KEY_SELECTED_SERVER
-import com.v2ray.ang.util.Utils
+import com.voxon.sim.AppConfig
+import com.voxon.sim.AppConfig.PREF_ALLOW_INSECURE
+import com.voxon.sim.R
+import com.voxon.sim.dto.EConfigType
+import com.voxon.sim.dto.ServerConfig
+import com.voxon.sim.dto.V2rayConfig
+import com.voxon.sim.dto.V2rayConfig.Companion.DEFAULT_PORT
+import com.voxon.sim.dto.V2rayConfig.Companion.TLS
+import com.voxon.sim.extension.toast
+import com.voxon.sim.util.MmkvManager
+import com.voxon.sim.util.MmkvManager.ID_MAIN
+import com.voxon.sim.util.MmkvManager.KEY_SELECTED_SERVER
+import com.voxon.sim.util.Utils
 
 class ServerActivity : BaseActivity() {
 

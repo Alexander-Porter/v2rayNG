@@ -1,4 +1,4 @@
-package com.v2ray.ang.ui
+package com.voxon.sim.ui
 
 import android.os.Bundle
 import android.text.TextUtils
@@ -11,15 +11,15 @@ import androidx.lifecycle.lifecycleScope
 import androidx.preference.PreferenceManager
 import androidx.recyclerview.widget.DividerItemDecoration
 import androidx.recyclerview.widget.LinearLayoutManager
-import com.v2ray.ang.AppConfig
-import com.v2ray.ang.AppConfig.ANG_PACKAGE
-import com.v2ray.ang.R
-import com.v2ray.ang.databinding.ActivityBypassListBinding
-import com.v2ray.ang.dto.AppInfo
-import com.v2ray.ang.extension.toast
-import com.v2ray.ang.extension.v2RayApplication
-import com.v2ray.ang.util.AppManagerUtil
-import com.v2ray.ang.util.Utils
+import com.voxon.sim.AppConfig
+import com.voxon.sim.AppConfig.ANG_PACKAGE
+import com.voxon.sim.R
+import com.voxon.sim.databinding.ActivityBypassListBinding
+import com.voxon.sim.dto.AppInfo
+import com.voxon.sim.extension.toast
+import com.voxon.sim.extension.v2RayApplication
+import com.voxon.sim.util.AppManagerUtil
+import com.voxon.sim.util.Utils
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.GlobalScope
 import kotlinx.coroutines.launch

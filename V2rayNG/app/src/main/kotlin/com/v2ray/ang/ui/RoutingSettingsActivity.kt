@@ -1,11 +1,11 @@
-package com.v2ray.ang.ui
+package com.voxon.sim.ui
 
 import android.os.Bundle
-import com.v2ray.ang.R
+import com.voxon.sim.R
 import androidx.fragment.app.Fragment
 import com.google.android.material.tabs.TabLayoutMediator
-import com.v2ray.ang.AppConfig
-import com.v2ray.ang.databinding.ActivityRoutingSettingsBinding
+import com.voxon.sim.AppConfig
+import com.voxon.sim.databinding.ActivityRoutingSettingsBinding
 
 class RoutingSettingsActivity : BaseActivity() {
     private lateinit var binding: ActivityRoutingSettingsBinding

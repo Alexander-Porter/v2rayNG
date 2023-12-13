@@ -1,4 +1,4 @@
-package com.v2ray.ang.viewmodel
+package com.voxon.sim.viewmodel
 
 import android.app.Application
 import android.content.SharedPreferences
@@ -6,8 +6,8 @@ import android.util.Log
 import androidx.lifecycle.AndroidViewModel
 import androidx.preference.PreferenceManager
 import com.tencent.mmkv.MMKV
-import com.v2ray.ang.AppConfig
-import com.v2ray.ang.util.MmkvManager
+import com.voxon.sim.AppConfig
+import com.voxon.sim.util.MmkvManager
 
 class SettingsViewModel(application: Application) : AndroidViewModel(application), SharedPreferences.OnSharedPreferenceChangeListener {
 

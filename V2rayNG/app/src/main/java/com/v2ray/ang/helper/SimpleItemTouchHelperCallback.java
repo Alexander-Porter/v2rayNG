@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.v2ray.ang.helper;
+package com.voxon.sim.helper;
 
 import android.graphics.Canvas;
 import androidx.recyclerview.widget.GridLayoutManager;

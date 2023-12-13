@@ -1,4 +1,4 @@
-package com.v2ray.ang.dto
+package com.voxon.sim.dto
 
 data class VmessQRCode(var v: String = "",
                        var ps: String = "",

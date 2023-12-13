@@ -1,4 +1,4 @@
-package com.v2ray.ang.service
+package com.voxon.sim.service
 
 import android.app.Service
 import android.content.Context
@@ -11,12 +11,12 @@ import android.os.StrictMode
 import android.util.Log
 import androidx.annotation.RequiresApi
 import com.tencent.mmkv.MMKV
-import com.v2ray.ang.AppConfig
-import com.v2ray.ang.R
-import com.v2ray.ang.dto.ERoutingMode
-import com.v2ray.ang.util.MmkvManager
-import com.v2ray.ang.util.MyContextWrapper
-import com.v2ray.ang.util.Utils
+import com.voxon.sim.AppConfig
+import com.voxon.sim.R
+import com.voxon.sim.dto.ERoutingMode
+import com.voxon.sim.util.MmkvManager
+import com.voxon.sim.util.MyContextWrapper
+import com.voxon.sim.util.Utils
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.GlobalScope
 import kotlinx.coroutines.launch

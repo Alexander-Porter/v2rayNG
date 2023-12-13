@@ -1,4 +1,4 @@
-package com.v2ray.ang
+package com.voxon.sim
 
 import android.content.Context
 import androidx.multidex.MultiDexApplication

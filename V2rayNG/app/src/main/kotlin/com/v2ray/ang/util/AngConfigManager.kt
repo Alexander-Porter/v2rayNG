@@ -1,4 +1,4 @@
-package com.v2ray.ang.util
+package com.voxon.sim.util
 
 import android.content.Context
 import android.content.SharedPreferences
@@ -8,19 +8,19 @@ import android.util.Log
 import androidx.preference.PreferenceManager
 import com.google.gson.Gson
 import com.tencent.mmkv.MMKV
-import com.v2ray.ang.AppConfig
-import com.v2ray.ang.AppConfig.ANG_CONFIG
-import com.v2ray.ang.AppConfig.HTTPS_PROTOCOL
-import com.v2ray.ang.AppConfig.HTTP_PROTOCOL
-import com.v2ray.ang.R
-import com.v2ray.ang.dto.*
-import com.v2ray.ang.dto.V2rayConfig.Companion.DEFAULT_SECURITY
-import com.v2ray.ang.dto.V2rayConfig.Companion.TLS
-import com.v2ray.ang.util.MmkvManager.KEY_SELECTED_SERVER
+import com.voxon.sim.AppConfig
+import com.voxon.sim.AppConfig.ANG_CONFIG
+import com.voxon.sim.AppConfig.HTTPS_PROTOCOL
+import com.voxon.sim.AppConfig.HTTP_PROTOCOL
+import com.voxon.sim.R
+import com.voxon.sim.dto.*
+import com.voxon.sim.dto.V2rayConfig.Companion.DEFAULT_SECURITY
+import com.voxon.sim.dto.V2rayConfig.Companion.TLS
+import com.voxon.sim.util.MmkvManager.KEY_SELECTED_SERVER
 import java.net.URI
 import java.util.*
-import com.v2ray.ang.extension.idnHost
-import com.v2ray.ang.extension.toast
+import com.voxon.sim.extension.idnHost
+import com.voxon.sim.extension.toast
 
 object AngConfigManager {
     private val mainStorage by lazy {

@@ -1,4 +1,4 @@
-package com.v2ray.ang.util
+package com.voxon.sim.util
 
 import android.content.ClipboardManager
 import android.content.Context
@@ -18,13 +18,13 @@ import android.util.Log
 import android.util.Patterns
 import android.webkit.URLUtil
 import com.tencent.mmkv.MMKV
-import com.v2ray.ang.AppConfig
-import com.v2ray.ang.AppConfig.ANG_PACKAGE
-import com.v2ray.ang.BuildConfig
-import com.v2ray.ang.R
-import com.v2ray.ang.extension.toast
+import com.voxon.sim.AppConfig
+import com.voxon.sim.AppConfig.ANG_PACKAGE
+import com.voxon.sim.BuildConfig
+import com.voxon.sim.R
+import com.voxon.sim.extension.toast
 import java.net.*
-import com.v2ray.ang.service.V2RayServiceManager
+import com.voxon.sim.service.V2RayServiceManager
 import java.io.IOException
 
 object Utils {

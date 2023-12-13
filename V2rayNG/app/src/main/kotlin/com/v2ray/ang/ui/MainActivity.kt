@@ -1,4 +1,4 @@
-package com.v2ray.ang.ui
+package com.voxon.sim.ui
 
 import android.Manifest
 import android.content.*
@@ -8,11 +8,11 @@ import androidx.recyclerview.widget.LinearLayoutManager
 import android.view.Menu
 import android.view.MenuItem
 import com.tbruyelle.rxpermissions.RxPermissions
-import com.v2ray.ang.R
+import com.voxon.sim.R
 import android.os.Bundle
 import android.text.TextUtils
 import android.view.KeyEvent
-import com.v2ray.ang.AppConfig
+import com.voxon.sim.AppConfig
 import android.content.res.ColorStateList
 import android.os.Build
 import com.google.android.material.navigation.NavigationView
@@ -27,18 +27,18 @@ import androidx.activity.viewModels
 import androidx.appcompat.app.AlertDialog
 import androidx.lifecycle.lifecycleScope
 import com.tencent.mmkv.MMKV
-import com.v2ray.ang.AppConfig.ANG_PACKAGE
-import com.v2ray.ang.BuildConfig
-import com.v2ray.ang.databinding.ActivityMainBinding
-import com.v2ray.ang.dto.EConfigType
-import com.v2ray.ang.extension.toast
+import com.voxon.sim.AppConfig.ANG_PACKAGE
+import com.voxon.sim.BuildConfig
+import com.voxon.sim.databinding.ActivityMainBinding
+import com.voxon.sim.dto.EConfigType
+import com.voxon.sim.extension.toast
 import rx.Observable
 import rx.android.schedulers.AndroidSchedulers
 import java.util.concurrent.TimeUnit
-import com.v2ray.ang.helper.SimpleItemTouchHelperCallback
-import com.v2ray.ang.service.V2RayServiceManager
-import com.v2ray.ang.util.*
-import com.v2ray.ang.viewmodel.MainViewModel
+import com.voxon.sim.helper.SimpleItemTouchHelperCallback
+import com.voxon.sim.service.V2RayServiceManager
+import com.voxon.sim.util.*
+import com.voxon.sim.viewmodel.MainViewModel
 import kotlinx.coroutines.*
 import me.drakeet.support.toast.ToastCompat
 import java.io.File

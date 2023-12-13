@@ -1,4 +1,4 @@
-package com.v2ray.ang.util
+package com.voxon.sim.util
 
 import android.graphics.Bitmap
 import android.graphics.BitmapFactory

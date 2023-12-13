@@ -1,4 +1,4 @@
-package com.v2ray.ang.ui
+package com.voxon.sim.ui
 
 import android.os.Bundle
 import android.text.TextUtils
@@ -10,14 +10,14 @@ import com.blacksquircle.ui.editorkit.utils.EditorTheme
 import com.blacksquircle.ui.language.json.JsonLanguage
 import com.google.gson.*
 import com.tencent.mmkv.MMKV
-import com.v2ray.ang.R
-import com.v2ray.ang.databinding.ActivityServerCustomConfigBinding
-import com.v2ray.ang.dto.EConfigType
-import com.v2ray.ang.dto.ServerConfig
-import com.v2ray.ang.dto.V2rayConfig
-import com.v2ray.ang.extension.toast
-import com.v2ray.ang.util.MmkvManager
-import com.v2ray.ang.util.Utils
+import com.voxon.sim.R
+import com.voxon.sim.databinding.ActivityServerCustomConfigBinding
+import com.voxon.sim.dto.EConfigType
+import com.voxon.sim.dto.ServerConfig
+import com.voxon.sim.dto.V2rayConfig
+import com.voxon.sim.extension.toast
+import com.voxon.sim.util.MmkvManager
+import com.voxon.sim.util.Utils
 import me.drakeet.support.toast.ToastCompat
 
 class ServerCustomConfigActivity : BaseActivity() {

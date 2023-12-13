@@ -1,13 +1,13 @@
-package com.v2ray.ang.ui
+package com.voxon.sim.ui
 
 import android.Manifest
 import android.content.*
 import com.tbruyelle.rxpermissions.RxPermissions
-import com.v2ray.ang.R
-import com.v2ray.ang.util.AngConfigManager
+import com.voxon.sim.R
+import com.voxon.sim.util.AngConfigManager
 import android.os.Bundle
 import androidx.activity.result.contract.ActivityResultContracts
-import com.v2ray.ang.extension.toast
+import com.voxon.sim.extension.toast
 
 class ScScannerActivity : BaseActivity() {
 

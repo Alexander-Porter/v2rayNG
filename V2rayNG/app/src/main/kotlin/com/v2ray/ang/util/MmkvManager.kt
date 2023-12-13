@@ -1,10 +1,10 @@
-package com.v2ray.ang.util
+package com.voxon.sim.util
 
 import com.google.gson.Gson
 import com.tencent.mmkv.MMKV
-import com.v2ray.ang.dto.ServerAffiliationInfo
-import com.v2ray.ang.dto.ServerConfig
-import com.v2ray.ang.dto.SubscriptionItem
+import com.voxon.sim.dto.ServerAffiliationInfo
+import com.voxon.sim.dto.ServerConfig
+import com.voxon.sim.dto.SubscriptionItem
 
 object MmkvManager {
     const val ID_MAIN = "MAIN"

@@ -1,4 +1,4 @@
-package com.v2ray.ang
+package com.voxon.sim
 
 /**
  *
@@ -48,9 +48,9 @@ object AppConfig {
     const val HTTP_PROTOCOL: String = "http://"
     const val HTTPS_PROTOCOL: String = "https://"
 
-    const val BROADCAST_ACTION_SERVICE = "com.v2ray.ang.action.service"
-    const val BROADCAST_ACTION_ACTIVITY = "com.v2ray.ang.action.activity"
-    const val BROADCAST_ACTION_WIDGET_CLICK = "com.v2ray.ang.action.widget.click"
+    const val BROADCAST_ACTION_SERVICE = "com.voxon.sim.action.service"
+    const val BROADCAST_ACTION_ACTIVITY = "com.voxon.sim.action.activity"
+    const val BROADCAST_ACTION_WIDGET_CLICK = "com.voxon.sim.action.widget.click"
 
     const val TASKER_EXTRA_BUNDLE = "com.twofortyfouram.locale.intent.extra.BUNDLE"
     const val TASKER_EXTRA_STRING_BLURB = "com.twofortyfouram.locale.intent.extra.BLURB"

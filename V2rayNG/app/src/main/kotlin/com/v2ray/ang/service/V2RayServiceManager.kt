@@ -1,4 +1,4 @@
-package com.v2ray.ang.service
+package com.voxon.sim.service
 
 import android.app.*
 import android.content.BroadcastReceiver
@@ -11,18 +11,18 @@ import android.util.Log
 import androidx.annotation.RequiresApi
 import androidx.core.app.NotificationCompat
 import com.tencent.mmkv.MMKV
-import com.v2ray.ang.AppConfig
-import com.v2ray.ang.AppConfig.ANG_PACKAGE
-import com.v2ray.ang.AppConfig.TAG_DIRECT
-import com.v2ray.ang.R
-import com.v2ray.ang.dto.ServerConfig
-import com.v2ray.ang.extension.toSpeedString
-import com.v2ray.ang.extension.toast
-import com.v2ray.ang.ui.MainActivity
-import com.v2ray.ang.util.MessageUtil
-import com.v2ray.ang.util.MmkvManager
-import com.v2ray.ang.util.Utils
-import com.v2ray.ang.util.V2rayConfigUtil
+import com.voxon.sim.AppConfig
+import com.voxon.sim.AppConfig.ANG_PACKAGE
+import com.voxon.sim.AppConfig.TAG_DIRECT
+import com.voxon.sim.R
+import com.voxon.sim.dto.ServerConfig
+import com.voxon.sim.extension.toSpeedString
+import com.voxon.sim.extension.toast
+import com.voxon.sim.ui.MainActivity
+import com.voxon.sim.util.MessageUtil
+import com.voxon.sim.util.MmkvManager
+import com.voxon.sim.util.Utils
+import com.voxon.sim.util.V2rayConfigUtil
 import go.Seq
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.GlobalScope

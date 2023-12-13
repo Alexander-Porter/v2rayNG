@@ -1,4 +1,4 @@
-package com.v2ray.ang.ui
+package com.voxon.sim.ui
 
 import android.Manifest
 import android.app.Activity
@@ -11,11 +11,11 @@ import android.view.MenuItem
 import androidx.activity.result.contract.ActivityResultContracts
 import com.tbruyelle.rxpermissions.RxPermissions
 import com.tencent.mmkv.MMKV
-import com.v2ray.ang.AppConfig
-import com.v2ray.ang.R
-import com.v2ray.ang.extension.toast
-import com.v2ray.ang.util.MmkvManager
-import com.v2ray.ang.util.QRCodeDecoder
+import com.voxon.sim.AppConfig
+import com.voxon.sim.R
+import com.voxon.sim.extension.toast
+import com.voxon.sim.util.MmkvManager
+import com.voxon.sim.util.QRCodeDecoder
 import io.github.g00fy2.quickie.QRResult
 import io.github.g00fy2.quickie.ScanCustomCode
 import io.github.g00fy2.quickie.config.ScannerConfig

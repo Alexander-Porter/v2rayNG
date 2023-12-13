@@ -13,7 +13,7 @@ android {
     }
 
     defaultConfig {
-        applicationId "com.v2ray.ang"
+        applicationId "com.voxon.sim"
         minSdkVersion 21
         targetSdkVersion Integer.parseInt("$targetSdkVer")
         multiDexEnabled true
@@ -89,8 +89,8 @@ android {
         viewBinding true
         buildConfig true
     }
-    namespace 'com.v2ray.ang'
-    testNamespace 'com.v2ray.angTest'
+    namespace 'com.voxon.sim'
+    testNamespace 'com.voxon.simTest'
 }
 
 dependencies {

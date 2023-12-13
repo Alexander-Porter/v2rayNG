@@ -1,12 +1,12 @@
-package com.v2ray.ang.util
+package com.voxon.sim.util
 
 import android.content.Context
 import android.os.SystemClock
 import android.text.TextUtils
 import android.util.Log
-import com.v2ray.ang.AppConfig
-import com.v2ray.ang.R
-import com.v2ray.ang.extension.responseLength
+import com.voxon.sim.AppConfig
+import com.voxon.sim.R
+import com.voxon.sim.extension.responseLength
 import kotlinx.coroutines.isActive
 import libv2ray.Libv2ray
 import java.io.IOException

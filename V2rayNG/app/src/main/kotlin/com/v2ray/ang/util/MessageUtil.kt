@@ -1,10 +1,10 @@
-package com.v2ray.ang.util
+package com.voxon.sim.util
 
 import android.content.ComponentName
 import android.content.Context
 import android.content.Intent
-import com.v2ray.ang.AppConfig
-import com.v2ray.ang.service.V2RayTestService
+import com.voxon.sim.AppConfig
+import com.voxon.sim.service.V2RayTestService
 import java.io.Serializable
 
 
